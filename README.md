@@ -10,13 +10,13 @@ In this assignment, you will use Convolutional Neural Networks (CNNs) to design 
 
 Solution: CNNs with Batchnorm, Dropout, Maxpool, and RELU activations.
 
-# Challenge 3: https://www.kaggle.com/c/11-785-fall-20-homework-3
+## Challenge 3: https://www.kaggle.com/c/11-785-fall-20-homework-3
 Same as challenge 1 but without alignment.
 We are going to be using unaligned labels in this contest. That means you are given the list of phonemes for each utterance, but not which frames correspond to which phonemes. Inference of the alignment will require using CTC loss.
 
 Solution: Bidirectional LSTMs with padding.
 
-# Challenge 4: https://www.kaggle.com/c/11-785-fall-20-homework-4-part-2
+## Challenge 4: https://www.kaggle.com/c/11-785-fall-20-homework-4-part-2
 Same as challenge 3 but without phonemes.
 
 Solution: Pyramidal LSTMs as the encoder. For the decoder, I used individual LSTM cells that takes in attention. Also implemented teacher forcing, gumble noise, and weight tying.  
